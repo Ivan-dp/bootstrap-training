@@ -1,0 +1,45 @@
+header {
+  background: #343a40;
+  /* width: 100%; */
+  /* text-align: center; */
+  /* display: flex; */
+}
+
+header,
+.header {
+  height: 56px;
+}
+
+.header {
+  display: flex;
+}
+
+.logo {
+  margin-left: 16px;
+  margin-right: 24px !important;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px !important;
+  line-height: 23px !important;
+}
+
+.header > a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: white;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 16px;
+}
+
+@media (max-width: 991px) {
+  .profile {
+    margin-bottom: 2rem;
+  }
+}
