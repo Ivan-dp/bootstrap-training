@@ -71,7 +71,7 @@ footer p {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 434px) {
   footer,
   footer .container {
     height: 71px;
