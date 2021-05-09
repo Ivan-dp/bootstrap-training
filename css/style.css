@@ -70,3 +70,10 @@ footer p {
     margin-bottom: 2rem;
   }
 }
+
+@media (max-width: 320px) {
+  footer,
+  footer .container {
+    height: 71px;
+  }
+}
